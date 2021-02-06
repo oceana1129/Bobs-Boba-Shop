@@ -1,0 +1,87 @@
+FONTS
+font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: hensa-regular, cursive;
+
+h1
+font: 'hensa-regular';
+font-size: 144px;
+font-height: 140%;
+
+h2
+font: 'hensa-regular';
+font-size: 72px;
+font-height: 140%;
+letter-spacing: 10%;
+all caps
+
+h3
+font: 'hensa-regular';
+font-size: 48px;
+font-height: 140%;
+letter-spacing: 10%;
+all caps
+
+h4/LI
+font: 'comfortaa'
+font-weight: regular;
+font-size: 36px;
+font-height: 140%;
+letter-spacing: 15%;
+all caps
+
+
+h5 (headers are light, numbers are bold)
+font: 'comfortaa'
+font-weight: bold;
+font-size: 36px;
+font-height: 140%;
+letter-spacing: 15%;
+
+h6
+font: 'comfortaa'
+font-weight: regular;
+font-size: 24px;
+font-height: 140%;
+letter-spacing: 10%;
+
+button
+font: 'montserrat'
+font-weight: regular;
+font-size: 24px;
+font-height: 140%;
+letter-spacing: 10%;
+all caps
+
+input
+font: 'montserrat'
+font-weight: regular;
+font-size: 24px;
+font-height: 140%;
+letter-spacing: 10%;
+regular caps
+
+p 
+font: 'montserrat'
+font-weight: regular;
+font-size: 24px;
+font-height: 140%;
+letter-spacing: 0%;
+paragraph-spacing: 12px;
+paragraph-indent: 24px;
+
+
+COLORS
+(Main colors)
+BG Main: #f0f0f0
+Light Pink:#efe5e5
+Pink: #eed3ca
+Dark Pink: #d8acab
+White: white
+Black: black
+
+(Sub Colors)
+Red: #d83550
+Bright Pink: #ff99ae
+Bright Yellow: #f5c779
+Orange: #fcb8a3
