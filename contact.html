@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is where your description goes" />
+    <meta name="keywords" content="one, two, three" />
 
-		<title>Bobs Boba | Contact</title>
+    <title>Bobs Boba | Contact</title>
 
     <!-- external CSS link -->
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="basic.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style type="text/css">
-      @font-face{
-          font-family:"hensa-regular";
-          src:url("Hensa.otf") format("woff"),
+      @font-face {
+        font-family: "hensa-regular";
+        src: url("Hensa.otf") format("woff"),
           url("Hensa.otf") format("opentype"),
           url("Hensa.ttf") format("truetype");
       }
-      </style>
+    </style>
   </head>
-  
-	<body>
-		<header>
+
+  <body>
+    <header>
       <nav>
         <ul>
           <li>
             <a href="about.html">About</a>
           </li>
-          <li  class="darkPinkText">
-            <a href="contact.html" >Contact</a>
+          <li class="darkPinkText">
+            <a href="contact.html">Contact</a>
           </li>
           <li>
             <a href="index.html">
               <div class="imgLogoContainer">
-                <img src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611802307/Bobs%20Boba/Tiny%20Things/BobsBoba_Logo_Full_NoColbor_150_vztrka.png" class="logo">
+                <img
+                  src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611802307/Bobs%20Boba/Tiny%20Things/BobsBoba_Logo_Full_NoColbor_150_vztrka.png"
+                  class="logo"
+                />
               </div>
             </a>
           </li>
           <li>
-            <a href="shop.html" >Menus</a>
+            <a href="shop.html">Menus</a>
           </li>
           <li class="flexRow">
             <div class="centerMe">
@@ -53,76 +60,123 @@
       </nav>
     </header>
     <main>
-        
-        <div class="contactHolder ">
-            <div class="pinkBox centerMe">
-              <div class="darkPinkCircle centerMe">
-                <form action="forms.html" method="POST" data-netlify="true" class="flexColumn flexEnd"  data-aos="fade-right" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">
-                  <div>
-                      <div class="flexRow spaceBetween" >
-                          <div class="widthFifty flexColumn">
-                            <label for="name">
-                              Name:
-                            </label>
-                            <input id="name" name="name" type="text" placeholder="Name" required>
-                          </div>
-                          <div class="widthFifty flexColumn">
-                              <label for="email">
-                                  Email:
-                              </label>
-                          <input id="email" name="email" type="email" placeholder="coolperson@email.com" required>
-                          </div>
-                      </div>
-                      
-                      
-                
-
+      <div class="contactHolder">
+        <div class="pinkBox centerMe">
+          <div class="darkPinkCircle centerMe">
+            <form
+              action="forms.html"
+              method="POST"
+              data-netlify="true"
+              class="flexColumn flexEnd justify-center gap-20"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-delay="300"
+              data-aos-once="true"
+            >
+              <!-- name and email -->
+              <div>
+                <div class="flexRow spaceBetween">
+                  <!-- name -->
+                  <div class="widthFifty flexColumn">
+                    <label for="name"> Name: </label>
+                    <input
+                      id="name"
+                      name="name"
+                      type="text"
+                      placeholder="Name"
+                      required
+                    />
                   </div>
-                  <label for="subject">
-                      Subject:
-                    </label>
-                    <input id="subject" name="subject" type="text" placeholder="Let's talk about stuff" required>
-                  <label for="message">
-                    Message:
-                  </label>
-                  <textarea id="message" name="message" type="text" placeholder="..." required class="lastInput"></textarea>
-                  <section class="submitBtnWrapper centerMe">
-                    <button id="submitBtn" class="btnTwo submitBtn btnHover"  type="submit">
-                      Submit
-                    </button>
-                  </section>
-                </form>
+                  <!-- email -->
+                  <div class="widthFifty flexColumn">
+                    <label for="email"> Email: </label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="coolperson@email.com"
+                      required
+                    />
+                  </div>
+                </div>
               </div>
-            </div>
+              <!-- subject -->
+              <div class="flex-column">
+                <label for="subject"> Subject: </label>
+                <input
+                  id="subject"
+                  name="subject"
+                  type="text"
+                  placeholder="Let's talk about stuff"
+                  required
+                />
+              </div>
+              <!-- message -->
+              <div class="flex-column gap-8">
+                <label for="message"> Message: </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  type="text"
+                  placeholder="..."
+                  required
+                  class="lastInput"
+                ></textarea>
+              </div>
+
+              <section class="submitBtnWrapper centerMe">
+                <button
+                  id="submitBtn"
+                  class="btnTwo submitBtn btnHover"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </section>
+            </form>
+          </div>
         </div>
-        
-        
+      </div>
     </main>
-
-
 
     <footer class="black">
       <div class="wrapper flexRow spaceBetween">
         <div>
-          <h5>&#169; 2021 Bobs Boba Inc.</h5>
+          <h5>&#169; 2021 - 2025 Bobs Boba Inc.</h5>
         </div>
-      <nav>
-        <ul>
-          <li><a href=""><img src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611432716/Bobs%20Boba/Instagram_icon_OffWhite_Resize_oxkzjj.png" class="icon"></a></li>
-          <li><a href=""><img src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611432714/Bobs%20Boba/Twitter_icon_OffWhite_Resize_zrwvyw.png" class="icon"></a></li>
-          <li><a href=""><img src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611432710/Bobs%20Boba/_Resize_gdccos.png" class="icon"></a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul>
+            <li>
+              <a href=""
+                ><img
+                  src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611432716/Bobs%20Boba/Instagram_icon_OffWhite_Resize_oxkzjj.png"
+                  class="icon"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611432714/Bobs%20Boba/Twitter_icon_OffWhite_Resize_zrwvyw.png"
+                  class="icon"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611432710/Bobs%20Boba/_Resize_gdccos.png"
+                  class="icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <address>
-        1533 Tenmile Road<br>Boston, MA 02110
-      </address>
+      <address>1533 Tenmile Road<br />Boston, MA 02110</address>
       <a>
-        <address>
-          978-755-3891
-        </address>
+        <address>978-755-3891</address>
       </a>
-      <h6 class="textCenter">website built by <strong>OceanaWebDesign</strong></h6>
+      <h6 class="textCenter">
+        website built by <strong>OceanaWebDesign</strong>
+      </h6>
     </footer>
     <script type="text/javascript" src="master.js"></script>
     <script type="text/javascript" src="master.js"></script>
@@ -130,5 +184,5 @@
     <script>
       AOS.init();
     </script>
-	</body>
+  </body>
 </html>
